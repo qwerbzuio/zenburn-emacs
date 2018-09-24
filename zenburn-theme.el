@@ -409,6 +409,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(diredp-deletion ((t (:foreground ,zenburn-yellow))))
    `(diredp-deletion-file-name ((t (:foreground ,zenburn-red))))
    `(diredp-dir-heading ((t (:foreground ,zenburn-blue :background ,zenburn-bg-1))))
+   `(diredp-dir-name ((t (:foreground ,zenburn-blue :background ,zenburn-bg+1))))
    `(diredp-dir-priv ((t (:foreground ,zenburn-cyan))))
    `(diredp-exec-priv ((t (:foreground ,zenburn-red))))
    `(diredp-executable-tag ((t (:foreground ,zenburn-green+1))))
