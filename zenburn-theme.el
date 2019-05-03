@@ -1032,6 +1032,12 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(magit-reflog-cherry-pick  ((t (:foreground ,zenburn-green))))
    `(magit-reflog-remote       ((t (:foreground ,zenburn-cyan))))
    `(magit-reflog-other        ((t (:foreground ,zenburn-cyan))))
+;;;;;; transient
+   `(transient-heading             ((t (:foreground ,zenburn-yellow  :weight bold))))
+   `(transient-key                 ((t (:foreground ,zenburn-green-2 :weight bold))))
+   `(transient-argument            ((t (:foreground ,zenburn-green   :weight bold))))
+   `(transient-disabled-suffix     ((t (:foreground ,zenburn-fg-1    :weight normal))))
+   `(transient-value               ((t (:foreground ,zenburn-blue-2  :weight bold))))
 ;;;;; markup-faces
    `(markup-anchor-face ((t (:foreground ,zenburn-blue+1))))
    `(markup-code-face ((t (:inherit font-lock-constant-face))))
