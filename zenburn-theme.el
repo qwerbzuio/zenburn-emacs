@@ -113,6 +113,7 @@ defining them in this alist."
     ("zenburn-bg+1"     . "#4F4F4F")
     ("zenburn-bg+2"     . "#5F5F5F")
     ("zenburn-bg+3"     . "#6F6F6F")
+    ("zenburn-red+3"    . "#FCC3C3")
     ("zenburn-red+2"    . "#ECB3B3")
     ("zenburn-red+1"    . "#DCA3A3")
     ("zenburn-red"      . "#CC9393")
@@ -444,7 +445,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(diff-removed        ((t (:background ,zenburn-red-6 :foreground ,zenburn-red+1))))
    `(diff-refine-added   ((t (:background ,zenburn-green-3 :foreground ,zenburn-green+4))))
    `(diff-refine-changed ((t (:background "#888811" :foreground ,zenburn-yellow))))
-   `(diff-refine-removed ((t (:background ,zenburn-red-4 :foreground ,zenburn-red+2))))
+   `(diff-refine-removed ((t (:background ,zenburn-red-4 :foreground ,zenburn-red+3))))
    `(diff-header ((,class (:background ,zenburn-bg+2))
                   (t (:background ,zenburn-fg :foreground ,zenburn-bg))))
    `(diff-file-header
